@@ -1,11 +1,10 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Berry Helper",
 	"description": "A helper for Berry Chat 🍓",
 	"version": "0.1",
 	"author": "zukini",
-	"permissions": ["activeTab"],
-	"browser_action": {
+	"action": {
 		"default_icon": {
 			"48": "images/icon48.png"
 		},
@@ -19,5 +18,10 @@
 			"js": ["content.js"]
 		}
 	],
-	"web_accessible_resources": ["images/*"]
+	"web_accessible_resources": [
+		{
+			"resources": ["images/*"],
+			"matches": ["*://*/*"]
+		}
+	]
 }

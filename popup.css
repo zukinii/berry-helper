@@ -1,0 +1,47 @@
+:root {
+	--berry-pink-dark: #fd9fd4;
+	--berry-pink-light: #fed1d8;
+	--berry-white: #feeff2;
+	/* berry-white with some transparency */
+	--white-text-background: rgba(254, 239, 242, 0.8);
+}
+
+::selection {
+	background-color: var(--berry-pink-dark);
+	color: var(--berry-white);
+}
+
+body {
+	margin: 0;
+	padding: 0.5rem;
+	background-color: var(--berry-white);
+	color: var(--berry-pink-dark);
+	min-width: 50ch;
+
+	/* add a checkered background */
+	background-image: repeating-conic-gradient(var(--berry-pink-light) 0deg 90deg, transparent 0deg 180deg),
+		repeating-conic-gradient(var(--berry-pink-light) 0deg 90deg, transparent 0deg 180deg);
+	background-size: 2rem 2rem;
+	background-position: 0 0, 0 0;
+}
+
+main {
+	padding: 1.2rem 1rem;
+	border: 0.7rem solid var(--berry-pink-dark);
+	border-radius: 1rem;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	justify-items: center;
+}
+
+main > * {
+	background-color: var(--white-text-background);
+}
+
+h1 {
+	margin: 0 0 1rem;
+}
+
+p {
+	margin: 0;
+}

@@ -1,0 +1,10 @@
+:root {
+	--berry-pink-dark: #fd9fd4;
+	--berry-pink-light: #fed1d8;
+	--berry-white: #feeff2;
+}
+
+::selection {
+	background-color: var(--berry-pink-dark);
+	color: var(--berry-white);
+}

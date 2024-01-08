@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Berry Helper",
+	"description": "A helper for Berry Chat 🍓",
+	"version": "0.1",
+	"author": "zukini",
+	"permissions": ["activeTab"],
+	"browser_action": {
+		"default_icon": {
+			"48": "images/icon48.png"
+		},
+		"default_title": "Berry Helper",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://www.twitch.tv/berry_ninja*", "*://www.twitch.tv/tinyzucchini*"],
+			"css": ["style.css"],
+			"js": ["content.js"]
+		}
+	],
+	"web_accessible_resources": ["images/*"]
+}

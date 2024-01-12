@@ -36,6 +36,11 @@ const watchNewMessages = () => {
 			title: 'Streamer Berry',
 		},
 		{
+			name: 'Babysanta_',
+			badge: 'strawberry_emoji.png',
+			title: 'Santa Berry',
+		},
+		{
 			name: 'Rubijuana',
 			badge: 'strawberry_emoji.png',
 			title: 'Mega Mod Berry',
@@ -56,12 +61,27 @@ const watchNewMessages = () => {
 			title: 'Waffle Berry',
 		},
 		{
+			name: 'sinthoras0402',
+			badge: 'strawberry_emoji.png',
+			title: 'DM Berry',
+		},
+		{
+			name: 'Keru_der_Otaku',
+			badge: 'strawberry_emoji.png',
+			title: 'Gamer Guide Berry',
+		},
+		{
 			name: 'lexisnightdawn',
 			badge: 'strawberry_emoji.png',
 			title: 'Berry',
 		},
 		{
 			name: 'ahornalpaka',
+			badge: 'strawberry_emoji.png',
+			title: 'Berry',
+		},
+		{
+			name: 'daniel__eder',
 			badge: 'strawberry_emoji.png',
 			title: 'Berry',
 		},

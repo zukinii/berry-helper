@@ -26,6 +26,7 @@ body {
 }
 
 main {
+	position: relative;
 	padding: 1.2rem 1rem;
 	border: 0.7rem solid var(--berry-pink-dark);
 	border-radius: 1rem;
@@ -34,8 +35,15 @@ main {
 	justify-items: center;
 }
 
-main > * {
+main > is:(h1, p) {
 	background-color: var(--white-text-background);
+}
+
+main > .berry-emoji {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translate(-50%, 50%) rotate(20deg);
 }
 
 h1 {

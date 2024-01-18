@@ -35,7 +35,7 @@ main {
 	justify-items: center;
 }
 
-main > is:(h1, p) {
+main > :is(h1, p) {
 	background-color: var(--white-text-background);
 }
 

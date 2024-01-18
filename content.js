@@ -71,6 +71,11 @@ const watchNewMessages = () => {
 			title: 'Gamer Guide Berry',
 		},
 		{
+			name: 'rex_eisblut',
+			badge: 'strawberry_emoji.png',
+			title: 'Rare Berry',
+		},
+		{
 			name: 'lexisnightdawn',
 			badge: 'strawberry_emoji.png',
 			title: 'Berry',
